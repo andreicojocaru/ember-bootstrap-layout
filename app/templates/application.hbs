@@ -1,9 +1,12 @@
 <div id="wrapper">
   <div id="sidebar-wrapper" class="container-fluid">
-    {{layout-sidebar}}
+    {{layout-nav-left}}
   </div>
 
   <div id="main-wrapper" class="container-fluid">
+    <div id="nav-top-wrapper">
+      {{layout-nav-top}}
+    </div>
     <h5>Main Content</h5>
     {{outlet}}
   </div>

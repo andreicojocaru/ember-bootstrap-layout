@@ -1,11 +1,27 @@
-.nav>li>a {
-    position: relative;
-    display: block;
-    line-height: 44px;
-    color: #88898c;
-    text-transform: uppercase;
-    letter-spacing: 1.1px;
-    font-size: 14px;
-    transition: color .2s;
-    border-bottom: 0;
+#nav-top-wrapper {
+  border-bottom: 1px solid;
+
+  .nav-items {
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      display: inline-block;
+      margin: 0 5px;
+      height: $nav-top-height;
+
+      a {
+        position: relative;
+        color: #88898c;
+        text-transform: uppercase;
+        letter-spacing: 1.1px;
+        font-size: 14px;
+        transition: color .2s;
+        border-bottom: 0;
+      }
+    }
+  }
 }
+
+
