@@ -1,0 +1,31 @@
+@import 'bootstrap-flex';
+
+@import 'variables';
+
+@import 'nav-side';
+@import 'nav-top';
+
+#wrapper {
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#main-wrapper {
+    position: absolute;
+    left: 90px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    -ms-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}

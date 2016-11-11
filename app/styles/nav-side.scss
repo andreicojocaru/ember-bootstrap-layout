@@ -1,0 +1,14 @@
+#sidebar-wrapper {
+  width: $sidebar-width;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  border-right: 1px solid;
+
+  .nav-items {
+    list-style: none;
+    padding-left: 0;
+  }
+}

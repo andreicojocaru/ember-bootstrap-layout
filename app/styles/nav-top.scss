@@ -1,0 +1,11 @@
+.nav>li>a {
+    position: relative;
+    display: block;
+    line-height: 44px;
+    color: #88898c;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-size: 14px;
+    transition: color .2s;
+    border-bottom: 0;
+}
