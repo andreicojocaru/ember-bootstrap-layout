@@ -1,13 +1,23 @@
 <div id="wrapper">
-  <div id="sidebar-wrapper" class="container-fluid">
+  <div id="sidebar-wrapper">
+    <a href="/" class="logo">
+      <i class="icon-demo"></i>
+    </a>
     {{layout-nav-left}}
   </div>
 
-  <div id="main-wrapper" class="container-fluid">
+  <div id="main-wrapper" class="container">
     <div id="nav-top-wrapper">
       {{layout-nav-top}}
     </div>
-    <h5>Main Content</h5>
-    {{outlet}}
+    <div class="row">
+      <div class="col-sm-3">
+        <h5>Second Sidebar</h5>
+      </div>
+      <div class="col-sm">
+        <h5>Main Content</h5>
+        {{outlet}}
+      </div>
+    </div>
   </div>
 </div>
